@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <section>
+        <div class="text-output">
+            <h3>Text</h3>
+            <div id="text-area">
+                <textarea name="txtArea" id="text"></textarea>
+                <button onclick="toQRCode()">Get QRCode</button>
+            </div>
+        </div>
+        <div class="img-output">
+            <h3>Image</h3>
+            <div id="canvas-area">
+                <img id="canvas">
+                <button id="save">save</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
