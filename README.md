@@ -4,6 +4,7 @@ A program generates QR Codes based of text on your own and save that code as png
 
 ## Downloads
 At the moment, is available for windows only as executable application
+- [qrcode-win32-x64.zip](https://www.mediafire.com/file/sq3fl25d8ybi6yn/qrcode-win32-x64.zip/file)
 
 
 ## For developers
